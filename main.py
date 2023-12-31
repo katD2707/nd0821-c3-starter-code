@@ -108,9 +108,9 @@ class Input(BaseModel):
 
 
 # Load the model
-model = joblib.load("starter/saved_models/model.pkl")
-encoder = joblib.load("starter/saved_models/encoder.pkl")
-lb = joblib.load("starter/saved_models/lb.pkl")
+model = joblib.load("saved_models/model.pkl")
+encoder = joblib.load("saved_models/encoder.pkl")
+lb = joblib.load("saved_models/lb.pkl")
 
 
 @app.get("/")

@@ -5,7 +5,7 @@ Author: KatD2707
 Date: 2023-31-12
 """
 from fastapi.testclient import TestClient
-from .main import app
+from main import app
 
 # Instantiate the client for testing.
 client = TestClient(app)
