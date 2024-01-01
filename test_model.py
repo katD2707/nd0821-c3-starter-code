@@ -9,7 +9,7 @@ import logging
 import pandas as pd
 import pytest
 import numpy as np
-from .model_utils import train_model, compute_model_metrics
+from classification.model_utils import train_model, compute_model_metrics
 
 
 def test_model_type():
